@@ -1,0 +1,1402 @@
+{
+  "profiles": [
+    {
+      "profile_name": "High Efficiency ASHP",
+      "property_id": "EOH0021",
+      "property_details": {
+        "house_type": "Detached",
+        "house_age": "1991-2000",
+        "postcode_area": "EH16"
+      },
+      "heat_pump_specs": {
+        "type": "ASHP",
+        "brand": "Mitsubishi",
+        "model": "PUZ-WM85VAA-BS",
+        "size_kw": 8.5,
+        "refrigerant": "R32"
+      },
+      "performance_data": {
+        "annual_spf": 3.369,
+        "typical_cop_range": [
+          2.869,
+          3.869
+        ],
+        "mean_flow_temp": 33.97,
+        "winter_flow_temp": 35.86,
+        "coldest_day_cop": 2.186,
+        "coldest_day_outdoor_temp": -6.42
+      },
+      "energy_consumption": {
+        "annual_system_kwh": 3304.87,
+        "annual_heat_output_kwh": 9248.67
+      }
+    },
+    {
+      "profile_name": "Average ASHP",
+      "property_id": "EOH0003",
+      "property_details": {
+        "house_type": "Mid-Terrace",
+        "house_age": "1983 - 1990",
+        "postcode_area": "NE38"
+      },
+      "heat_pump_specs": {
+        "type": "ASHP",
+        "brand": "Daikin",
+        "model": "EDLQ07CAV7",
+        "size_kw": 7.0,
+        "refrigerant": "R410A"
+      },
+      "performance_data": {
+        "annual_spf": 2.737,
+        "typical_cop_range": [
+          2.237,
+          3.237
+        ],
+        "mean_flow_temp": 30.74,
+        "winter_flow_temp": 33.28,
+        "coldest_day_cop": 1.96,
+        "coldest_day_outdoor_temp": -5.52
+      },
+      "energy_consumption": {
+        "annual_system_kwh": 3640.01,
+        "annual_heat_output_kwh": 8811.39
+      }
+    },
+    {
+      "profile_name": "High Temperature ASHP",
+      "property_id": "EOH0005",
+      "property_details": {
+        "house_type": "Detached",
+        "house_age": "1991-2000",
+        "postcode_area": "EH33"
+      },
+      "heat_pump_specs": {
+        "type": "HT_ASHP",
+        "brand": "Vaillant",
+        "model": "VWL 75/6 A 230V S2",
+        "size_kw": 7.0,
+        "refrigerant": "R290"
+      },
+      "performance_data": {
+        "annual_spf": 3.476,
+        "typical_cop_range": [
+          2.976,
+          3.976
+        ],
+        "mean_flow_temp": 35.6,
+        "winter_flow_temp": 37.54,
+        "coldest_day_cop": 2.698,
+        "coldest_day_outdoor_temp": -6.42
+      },
+      "energy_consumption": {
+        "annual_system_kwh": 3220.01,
+        "annual_heat_output_kwh": 10964.88
+      }
+    },
+    {
+      "profile_name": "Hybrid Heat Pump",
+      "property_id": "EOH0014",
+      "property_details": {
+        "house_type": "Semi-Detached",
+        "house_age": "1950 - 1966",
+        "postcode_area": "NE6"
+      },
+      "heat_pump_specs": {
+        "type": "Hybrid",
+        "brand": "Daikin",
+        "model": "EHY2KOMB32AA",
+        "size_kw": 4.0,
+        "refrigerant": "R32"
+      },
+      "performance_data": {
+        "annual_spf": 2.531,
+        "typical_cop_range": [
+          2.031,
+          3.031
+        ],
+        "mean_flow_temp": 41.46,
+        "winter_flow_temp": 41.69,
+        "coldest_day_cop": 0.02,
+        "coldest_day_outdoor_temp": -5.52
+      },
+      "energy_consumption": {
+        "annual_system_kwh": 1908.84,
+        "annual_heat_output_kwh": 3962.69
+      }
+    },
+    {
+      "profile_name": "Ground Source Heat Pump",
+      "property_id": "EOH0079",
+      "property_details": {
+        "house_type": "Semi-Detached",
+        "house_age": "1945-1964",
+        "postcode_area": "EH4"
+      },
+      "heat_pump_specs": {
+        "type": "GSHP",
+        "brand": "Vaillant",
+        "model": "VWF 87/4",
+        "size_kw": 8.0,
+        "refrigerant": "R410A"
+      },
+      "performance_data": {
+        "annual_spf": 4.301,
+        "typical_cop_range": [
+          3.801,
+          4.801
+        ],
+        "mean_flow_temp": 37.97,
+        "winter_flow_temp": 42.16,
+        "coldest_day_cop": 4.099,
+        "coldest_day_outdoor_temp": -6.42
+      },
+      "energy_consumption": {
+        "annual_system_kwh": 3043.26,
+        "annual_heat_output_kwh": 11428.52
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "EOH0021_tariff_opt",
+      "name": "Early Morning Heating on Cheap Tariff",
+      "property_profile": {
+        "profile_name": "High Efficiency ASHP",
+        "property_id": "EOH0021",
+        "property_details": {
+          "house_type": "Detached",
+          "house_age": "1991-2000",
+          "postcode_area": "EH16"
+        },
+        "heat_pump_specs": {
+          "type": "ASHP",
+          "brand": "Mitsubishi",
+          "model": "PUZ-WM85VAA-BS",
+          "size_kw": 8.5,
+          "refrigerant": "R32"
+        },
+        "performance_data": {
+          "annual_spf": 3.369,
+          "typical_cop_range": [
+            2.869,
+            3.869
+          ],
+          "mean_flow_temp": 33.97,
+          "winter_flow_temp": 35.86,
+          "coldest_day_cop": 2.186,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3304.87,
+          "annual_heat_output_kwh": 9248.67
+        }
+      },
+      "timestamp": "2024-01-15T02:30:00",
+      "event_type": "tariff_optimization",
+      "data": {
+        "indoor_temp": 19.2,
+        "target_temp": 20.0,
+        "outdoor_temp": -3.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 2.55,
+        "cop": 3.169,
+        "flow_temp": 35.86,
+        "electricity_price_current": 0.08,
+        "electricity_price_peak": 0.28,
+        "grid_carbon_intensity": 150,
+        "vpp_signal": null,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0021_vpp",
+      "name": "Grid Demand Response (Peak Period)",
+      "property_profile": {
+        "profile_name": "High Efficiency ASHP",
+        "property_id": "EOH0021",
+        "property_details": {
+          "house_type": "Detached",
+          "house_age": "1991-2000",
+          "postcode_area": "EH16"
+        },
+        "heat_pump_specs": {
+          "type": "ASHP",
+          "brand": "Mitsubishi",
+          "model": "PUZ-WM85VAA-BS",
+          "size_kw": 8.5,
+          "refrigerant": "R32"
+        },
+        "performance_data": {
+          "annual_spf": 3.369,
+          "typical_cop_range": [
+            2.869,
+            3.869
+          ],
+          "mean_flow_temp": 33.97,
+          "winter_flow_temp": 35.86,
+          "coldest_day_cop": 2.186,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3304.87,
+          "annual_heat_output_kwh": 9248.67
+        }
+      },
+      "timestamp": "2024-01-15T18:15:00",
+      "event_type": "vpp_curtailment",
+      "data": {
+        "indoor_temp": 19.1,
+        "target_temp": 20.0,
+        "outdoor_temp": 4.0,
+        "heat_pump_status": "reduced",
+        "power_consumption_kw": 1.275,
+        "cop": 3.669,
+        "flow_temp": 33.97,
+        "electricity_price_current": 0.32,
+        "grid_carbon_intensity": 420,
+        "vpp_signal": "reduce_50%",
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0021_cold_day",
+      "name": "Cold Weather Performance",
+      "property_profile": {
+        "profile_name": "High Efficiency ASHP",
+        "property_id": "EOH0021",
+        "property_details": {
+          "house_type": "Detached",
+          "house_age": "1991-2000",
+          "postcode_area": "EH16"
+        },
+        "heat_pump_specs": {
+          "type": "ASHP",
+          "brand": "Mitsubishi",
+          "model": "PUZ-WM85VAA-BS",
+          "size_kw": 8.5,
+          "refrigerant": "R32"
+        },
+        "performance_data": {
+          "annual_spf": 3.369,
+          "typical_cop_range": [
+            2.869,
+            3.869
+          ],
+          "mean_flow_temp": 33.97,
+          "winter_flow_temp": 35.86,
+          "coldest_day_cop": 2.186,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3304.87,
+          "annual_heat_output_kwh": 9248.67
+        }
+      },
+      "timestamp": "2024-01-20T08:00:00",
+      "event_type": "normal_winter_behavior",
+      "data": {
+        "indoor_temp": 19.8,
+        "target_temp": 20.0,
+        "outdoor_temp": -6.42,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 4.25,
+        "cop": 2.186,
+        "flow_temp": 37.86,
+        "electricity_price_current": 0.15,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0021_predictive",
+      "name": "Pre-heating Before Cold Snap",
+      "property_profile": {
+        "profile_name": "High Efficiency ASHP",
+        "property_id": "EOH0021",
+        "property_details": {
+          "house_type": "Detached",
+          "house_age": "1991-2000",
+          "postcode_area": "EH16"
+        },
+        "heat_pump_specs": {
+          "type": "ASHP",
+          "brand": "Mitsubishi",
+          "model": "PUZ-WM85VAA-BS",
+          "size_kw": 8.5,
+          "refrigerant": "R32"
+        },
+        "performance_data": {
+          "annual_spf": 3.369,
+          "typical_cop_range": [
+            2.869,
+            3.869
+          ],
+          "mean_flow_temp": 33.97,
+          "winter_flow_temp": 35.86,
+          "coldest_day_cop": 2.186,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3304.87,
+          "annual_heat_output_kwh": 9248.67
+        }
+      },
+      "timestamp": "2024-01-16T14:00:00",
+      "event_type": "predictive_heating",
+      "data": {
+        "indoor_temp": 21.2,
+        "target_temp": 20.0,
+        "outdoor_temp": 2.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 2.55,
+        "cop": 3.869,
+        "flow_temp": 33.97,
+        "weather_forecast_temp": -8.0,
+        "forecast_time": "tonight 22:00",
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0021_low_cop",
+      "name": "Lower Than Expected Efficiency",
+      "property_profile": {
+        "profile_name": "High Efficiency ASHP",
+        "property_id": "EOH0021",
+        "property_details": {
+          "house_type": "Detached",
+          "house_age": "1991-2000",
+          "postcode_area": "EH16"
+        },
+        "heat_pump_specs": {
+          "type": "ASHP",
+          "brand": "Mitsubishi",
+          "model": "PUZ-WM85VAA-BS",
+          "size_kw": 8.5,
+          "refrigerant": "R32"
+        },
+        "performance_data": {
+          "annual_spf": 3.369,
+          "typical_cop_range": [
+            2.869,
+            3.869
+          ],
+          "mean_flow_temp": 33.97,
+          "winter_flow_temp": 35.86,
+          "coldest_day_cop": 2.186,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3304.87,
+          "annual_heat_output_kwh": 9248.67
+        }
+      },
+      "timestamp": "2024-01-22T10:30:00",
+      "event_type": "potential_fault",
+      "data": {
+        "indoor_temp": 18.5,
+        "target_temp": 20.0,
+        "outdoor_temp": 3.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 3.825,
+        "cop": 1.8690000000000002,
+        "flow_temp": 38.97,
+        "return_temp": 33.97,
+        "electricity_price_current": 0.15,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0003_tariff_opt",
+      "name": "Early Morning Heating on Cheap Tariff",
+      "property_profile": {
+        "profile_name": "Average ASHP",
+        "property_id": "EOH0003",
+        "property_details": {
+          "house_type": "Mid-Terrace",
+          "house_age": "1983 - 1990",
+          "postcode_area": "NE38"
+        },
+        "heat_pump_specs": {
+          "type": "ASHP",
+          "brand": "Daikin",
+          "model": "EDLQ07CAV7",
+          "size_kw": 7.0,
+          "refrigerant": "R410A"
+        },
+        "performance_data": {
+          "annual_spf": 2.737,
+          "typical_cop_range": [
+            2.237,
+            3.237
+          ],
+          "mean_flow_temp": 30.74,
+          "winter_flow_temp": 33.28,
+          "coldest_day_cop": 1.96,
+          "coldest_day_outdoor_temp": -5.52
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3640.01,
+          "annual_heat_output_kwh": 8811.39
+        }
+      },
+      "timestamp": "2024-01-15T02:30:00",
+      "event_type": "tariff_optimization",
+      "data": {
+        "indoor_temp": 19.2,
+        "target_temp": 20.0,
+        "outdoor_temp": -3.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 2.1,
+        "cop": 2.537,
+        "flow_temp": 33.28,
+        "electricity_price_current": 0.08,
+        "electricity_price_peak": 0.28,
+        "grid_carbon_intensity": 150,
+        "vpp_signal": null,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0003_vpp",
+      "name": "Grid Demand Response (Peak Period)",
+      "property_profile": {
+        "profile_name": "Average ASHP",
+        "property_id": "EOH0003",
+        "property_details": {
+          "house_type": "Mid-Terrace",
+          "house_age": "1983 - 1990",
+          "postcode_area": "NE38"
+        },
+        "heat_pump_specs": {
+          "type": "ASHP",
+          "brand": "Daikin",
+          "model": "EDLQ07CAV7",
+          "size_kw": 7.0,
+          "refrigerant": "R410A"
+        },
+        "performance_data": {
+          "annual_spf": 2.737,
+          "typical_cop_range": [
+            2.237,
+            3.237
+          ],
+          "mean_flow_temp": 30.74,
+          "winter_flow_temp": 33.28,
+          "coldest_day_cop": 1.96,
+          "coldest_day_outdoor_temp": -5.52
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3640.01,
+          "annual_heat_output_kwh": 8811.39
+        }
+      },
+      "timestamp": "2024-01-15T18:15:00",
+      "event_type": "vpp_curtailment",
+      "data": {
+        "indoor_temp": 19.1,
+        "target_temp": 20.0,
+        "outdoor_temp": 4.0,
+        "heat_pump_status": "reduced",
+        "power_consumption_kw": 1.05,
+        "cop": 3.037,
+        "flow_temp": 30.74,
+        "electricity_price_current": 0.32,
+        "grid_carbon_intensity": 420,
+        "vpp_signal": "reduce_50%",
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0003_cold_day",
+      "name": "Cold Weather Performance",
+      "property_profile": {
+        "profile_name": "Average ASHP",
+        "property_id": "EOH0003",
+        "property_details": {
+          "house_type": "Mid-Terrace",
+          "house_age": "1983 - 1990",
+          "postcode_area": "NE38"
+        },
+        "heat_pump_specs": {
+          "type": "ASHP",
+          "brand": "Daikin",
+          "model": "EDLQ07CAV7",
+          "size_kw": 7.0,
+          "refrigerant": "R410A"
+        },
+        "performance_data": {
+          "annual_spf": 2.737,
+          "typical_cop_range": [
+            2.237,
+            3.237
+          ],
+          "mean_flow_temp": 30.74,
+          "winter_flow_temp": 33.28,
+          "coldest_day_cop": 1.96,
+          "coldest_day_outdoor_temp": -5.52
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3640.01,
+          "annual_heat_output_kwh": 8811.39
+        }
+      },
+      "timestamp": "2024-01-20T08:00:00",
+      "event_type": "normal_winter_behavior",
+      "data": {
+        "indoor_temp": 19.8,
+        "target_temp": 20.0,
+        "outdoor_temp": -5.52,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 3.5,
+        "cop": 1.96,
+        "flow_temp": 35.28,
+        "electricity_price_current": 0.15,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0003_predictive",
+      "name": "Pre-heating Before Cold Snap",
+      "property_profile": {
+        "profile_name": "Average ASHP",
+        "property_id": "EOH0003",
+        "property_details": {
+          "house_type": "Mid-Terrace",
+          "house_age": "1983 - 1990",
+          "postcode_area": "NE38"
+        },
+        "heat_pump_specs": {
+          "type": "ASHP",
+          "brand": "Daikin",
+          "model": "EDLQ07CAV7",
+          "size_kw": 7.0,
+          "refrigerant": "R410A"
+        },
+        "performance_data": {
+          "annual_spf": 2.737,
+          "typical_cop_range": [
+            2.237,
+            3.237
+          ],
+          "mean_flow_temp": 30.74,
+          "winter_flow_temp": 33.28,
+          "coldest_day_cop": 1.96,
+          "coldest_day_outdoor_temp": -5.52
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3640.01,
+          "annual_heat_output_kwh": 8811.39
+        }
+      },
+      "timestamp": "2024-01-16T14:00:00",
+      "event_type": "predictive_heating",
+      "data": {
+        "indoor_temp": 21.2,
+        "target_temp": 20.0,
+        "outdoor_temp": 2.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 2.1,
+        "cop": 3.237,
+        "flow_temp": 30.74,
+        "weather_forecast_temp": -8.0,
+        "forecast_time": "tonight 22:00",
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0003_low_cop",
+      "name": "Lower Than Expected Efficiency",
+      "property_profile": {
+        "profile_name": "Average ASHP",
+        "property_id": "EOH0003",
+        "property_details": {
+          "house_type": "Mid-Terrace",
+          "house_age": "1983 - 1990",
+          "postcode_area": "NE38"
+        },
+        "heat_pump_specs": {
+          "type": "ASHP",
+          "brand": "Daikin",
+          "model": "EDLQ07CAV7",
+          "size_kw": 7.0,
+          "refrigerant": "R410A"
+        },
+        "performance_data": {
+          "annual_spf": 2.737,
+          "typical_cop_range": [
+            2.237,
+            3.237
+          ],
+          "mean_flow_temp": 30.74,
+          "winter_flow_temp": 33.28,
+          "coldest_day_cop": 1.96,
+          "coldest_day_outdoor_temp": -5.52
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3640.01,
+          "annual_heat_output_kwh": 8811.39
+        }
+      },
+      "timestamp": "2024-01-22T10:30:00",
+      "event_type": "potential_fault",
+      "data": {
+        "indoor_temp": 18.5,
+        "target_temp": 20.0,
+        "outdoor_temp": 3.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 3.15,
+        "cop": 1.4,
+        "flow_temp": 35.739999999999995,
+        "return_temp": 30.74,
+        "electricity_price_current": 0.15,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0005_tariff_opt",
+      "name": "Early Morning Heating on Cheap Tariff",
+      "property_profile": {
+        "profile_name": "High Temperature ASHP",
+        "property_id": "EOH0005",
+        "property_details": {
+          "house_type": "Detached",
+          "house_age": "1991-2000",
+          "postcode_area": "EH33"
+        },
+        "heat_pump_specs": {
+          "type": "HT_ASHP",
+          "brand": "Vaillant",
+          "model": "VWL 75/6 A 230V S2",
+          "size_kw": 7.0,
+          "refrigerant": "R290"
+        },
+        "performance_data": {
+          "annual_spf": 3.476,
+          "typical_cop_range": [
+            2.976,
+            3.976
+          ],
+          "mean_flow_temp": 35.6,
+          "winter_flow_temp": 37.54,
+          "coldest_day_cop": 2.698,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3220.01,
+          "annual_heat_output_kwh": 10964.88
+        }
+      },
+      "timestamp": "2024-01-15T02:30:00",
+      "event_type": "tariff_optimization",
+      "data": {
+        "indoor_temp": 19.2,
+        "target_temp": 20.0,
+        "outdoor_temp": -3.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 2.1,
+        "cop": 3.276,
+        "flow_temp": 37.54,
+        "electricity_price_current": 0.08,
+        "electricity_price_peak": 0.28,
+        "grid_carbon_intensity": 150,
+        "vpp_signal": null,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0005_vpp",
+      "name": "Grid Demand Response (Peak Period)",
+      "property_profile": {
+        "profile_name": "High Temperature ASHP",
+        "property_id": "EOH0005",
+        "property_details": {
+          "house_type": "Detached",
+          "house_age": "1991-2000",
+          "postcode_area": "EH33"
+        },
+        "heat_pump_specs": {
+          "type": "HT_ASHP",
+          "brand": "Vaillant",
+          "model": "VWL 75/6 A 230V S2",
+          "size_kw": 7.0,
+          "refrigerant": "R290"
+        },
+        "performance_data": {
+          "annual_spf": 3.476,
+          "typical_cop_range": [
+            2.976,
+            3.976
+          ],
+          "mean_flow_temp": 35.6,
+          "winter_flow_temp": 37.54,
+          "coldest_day_cop": 2.698,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3220.01,
+          "annual_heat_output_kwh": 10964.88
+        }
+      },
+      "timestamp": "2024-01-15T18:15:00",
+      "event_type": "vpp_curtailment",
+      "data": {
+        "indoor_temp": 19.1,
+        "target_temp": 20.0,
+        "outdoor_temp": 4.0,
+        "heat_pump_status": "reduced",
+        "power_consumption_kw": 1.05,
+        "cop": 3.776,
+        "flow_temp": 35.6,
+        "electricity_price_current": 0.32,
+        "grid_carbon_intensity": 420,
+        "vpp_signal": "reduce_50%",
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0005_cold_day",
+      "name": "Cold Weather Performance",
+      "property_profile": {
+        "profile_name": "High Temperature ASHP",
+        "property_id": "EOH0005",
+        "property_details": {
+          "house_type": "Detached",
+          "house_age": "1991-2000",
+          "postcode_area": "EH33"
+        },
+        "heat_pump_specs": {
+          "type": "HT_ASHP",
+          "brand": "Vaillant",
+          "model": "VWL 75/6 A 230V S2",
+          "size_kw": 7.0,
+          "refrigerant": "R290"
+        },
+        "performance_data": {
+          "annual_spf": 3.476,
+          "typical_cop_range": [
+            2.976,
+            3.976
+          ],
+          "mean_flow_temp": 35.6,
+          "winter_flow_temp": 37.54,
+          "coldest_day_cop": 2.698,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3220.01,
+          "annual_heat_output_kwh": 10964.88
+        }
+      },
+      "timestamp": "2024-01-20T08:00:00",
+      "event_type": "normal_winter_behavior",
+      "data": {
+        "indoor_temp": 19.8,
+        "target_temp": 20.0,
+        "outdoor_temp": -6.42,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 3.5,
+        "cop": 2.698,
+        "flow_temp": 39.54,
+        "electricity_price_current": 0.15,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0005_predictive",
+      "name": "Pre-heating Before Cold Snap",
+      "property_profile": {
+        "profile_name": "High Temperature ASHP",
+        "property_id": "EOH0005",
+        "property_details": {
+          "house_type": "Detached",
+          "house_age": "1991-2000",
+          "postcode_area": "EH33"
+        },
+        "heat_pump_specs": {
+          "type": "HT_ASHP",
+          "brand": "Vaillant",
+          "model": "VWL 75/6 A 230V S2",
+          "size_kw": 7.0,
+          "refrigerant": "R290"
+        },
+        "performance_data": {
+          "annual_spf": 3.476,
+          "typical_cop_range": [
+            2.976,
+            3.976
+          ],
+          "mean_flow_temp": 35.6,
+          "winter_flow_temp": 37.54,
+          "coldest_day_cop": 2.698,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3220.01,
+          "annual_heat_output_kwh": 10964.88
+        }
+      },
+      "timestamp": "2024-01-16T14:00:00",
+      "event_type": "predictive_heating",
+      "data": {
+        "indoor_temp": 21.2,
+        "target_temp": 20.0,
+        "outdoor_temp": 2.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 2.1,
+        "cop": 3.976,
+        "flow_temp": 35.6,
+        "weather_forecast_temp": -8.0,
+        "forecast_time": "tonight 22:00",
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0005_low_cop",
+      "name": "Lower Than Expected Efficiency",
+      "property_profile": {
+        "profile_name": "High Temperature ASHP",
+        "property_id": "EOH0005",
+        "property_details": {
+          "house_type": "Detached",
+          "house_age": "1991-2000",
+          "postcode_area": "EH33"
+        },
+        "heat_pump_specs": {
+          "type": "HT_ASHP",
+          "brand": "Vaillant",
+          "model": "VWL 75/6 A 230V S2",
+          "size_kw": 7.0,
+          "refrigerant": "R290"
+        },
+        "performance_data": {
+          "annual_spf": 3.476,
+          "typical_cop_range": [
+            2.976,
+            3.976
+          ],
+          "mean_flow_temp": 35.6,
+          "winter_flow_temp": 37.54,
+          "coldest_day_cop": 2.698,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3220.01,
+          "annual_heat_output_kwh": 10964.88
+        }
+      },
+      "timestamp": "2024-01-22T10:30:00",
+      "event_type": "potential_fault",
+      "data": {
+        "indoor_temp": 18.5,
+        "target_temp": 20.0,
+        "outdoor_temp": 3.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 3.15,
+        "cop": 1.976,
+        "flow_temp": 40.6,
+        "return_temp": 35.6,
+        "electricity_price_current": 0.15,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0014_tariff_opt",
+      "name": "Early Morning Heating on Cheap Tariff",
+      "property_profile": {
+        "profile_name": "Hybrid Heat Pump",
+        "property_id": "EOH0014",
+        "property_details": {
+          "house_type": "Semi-Detached",
+          "house_age": "1950 - 1966",
+          "postcode_area": "NE6"
+        },
+        "heat_pump_specs": {
+          "type": "Hybrid",
+          "brand": "Daikin",
+          "model": "EHY2KOMB32AA",
+          "size_kw": 4.0,
+          "refrigerant": "R32"
+        },
+        "performance_data": {
+          "annual_spf": 2.531,
+          "typical_cop_range": [
+            2.031,
+            3.031
+          ],
+          "mean_flow_temp": 41.46,
+          "winter_flow_temp": 41.69,
+          "coldest_day_cop": 0.02,
+          "coldest_day_outdoor_temp": -5.52
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 1908.84,
+          "annual_heat_output_kwh": 3962.69
+        }
+      },
+      "timestamp": "2024-01-15T02:30:00",
+      "event_type": "tariff_optimization",
+      "data": {
+        "indoor_temp": 19.2,
+        "target_temp": 20.0,
+        "outdoor_temp": -3.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 1.2,
+        "cop": 2.331,
+        "flow_temp": 41.69,
+        "electricity_price_current": 0.08,
+        "electricity_price_peak": 0.28,
+        "grid_carbon_intensity": 150,
+        "vpp_signal": null,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0014_vpp",
+      "name": "Grid Demand Response (Peak Period)",
+      "property_profile": {
+        "profile_name": "Hybrid Heat Pump",
+        "property_id": "EOH0014",
+        "property_details": {
+          "house_type": "Semi-Detached",
+          "house_age": "1950 - 1966",
+          "postcode_area": "NE6"
+        },
+        "heat_pump_specs": {
+          "type": "Hybrid",
+          "brand": "Daikin",
+          "model": "EHY2KOMB32AA",
+          "size_kw": 4.0,
+          "refrigerant": "R32"
+        },
+        "performance_data": {
+          "annual_spf": 2.531,
+          "typical_cop_range": [
+            2.031,
+            3.031
+          ],
+          "mean_flow_temp": 41.46,
+          "winter_flow_temp": 41.69,
+          "coldest_day_cop": 0.02,
+          "coldest_day_outdoor_temp": -5.52
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 1908.84,
+          "annual_heat_output_kwh": 3962.69
+        }
+      },
+      "timestamp": "2024-01-15T18:15:00",
+      "event_type": "vpp_curtailment",
+      "data": {
+        "indoor_temp": 19.1,
+        "target_temp": 20.0,
+        "outdoor_temp": 4.0,
+        "heat_pump_status": "reduced",
+        "power_consumption_kw": 0.6,
+        "cop": 2.831,
+        "flow_temp": 41.46,
+        "electricity_price_current": 0.32,
+        "grid_carbon_intensity": 420,
+        "vpp_signal": "reduce_50%",
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0014_cold_day",
+      "name": "Cold Weather Performance",
+      "property_profile": {
+        "profile_name": "Hybrid Heat Pump",
+        "property_id": "EOH0014",
+        "property_details": {
+          "house_type": "Semi-Detached",
+          "house_age": "1950 - 1966",
+          "postcode_area": "NE6"
+        },
+        "heat_pump_specs": {
+          "type": "Hybrid",
+          "brand": "Daikin",
+          "model": "EHY2KOMB32AA",
+          "size_kw": 4.0,
+          "refrigerant": "R32"
+        },
+        "performance_data": {
+          "annual_spf": 2.531,
+          "typical_cop_range": [
+            2.031,
+            3.031
+          ],
+          "mean_flow_temp": 41.46,
+          "winter_flow_temp": 41.69,
+          "coldest_day_cop": 0.02,
+          "coldest_day_outdoor_temp": -5.52
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 1908.84,
+          "annual_heat_output_kwh": 3962.69
+        }
+      },
+      "timestamp": "2024-01-20T08:00:00",
+      "event_type": "normal_winter_behavior",
+      "data": {
+        "indoor_temp": 19.8,
+        "target_temp": 20.0,
+        "outdoor_temp": -5.52,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 2.0,
+        "cop": 0.02,
+        "flow_temp": 43.69,
+        "electricity_price_current": 0.15,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0014_predictive",
+      "name": "Pre-heating Before Cold Snap",
+      "property_profile": {
+        "profile_name": "Hybrid Heat Pump",
+        "property_id": "EOH0014",
+        "property_details": {
+          "house_type": "Semi-Detached",
+          "house_age": "1950 - 1966",
+          "postcode_area": "NE6"
+        },
+        "heat_pump_specs": {
+          "type": "Hybrid",
+          "brand": "Daikin",
+          "model": "EHY2KOMB32AA",
+          "size_kw": 4.0,
+          "refrigerant": "R32"
+        },
+        "performance_data": {
+          "annual_spf": 2.531,
+          "typical_cop_range": [
+            2.031,
+            3.031
+          ],
+          "mean_flow_temp": 41.46,
+          "winter_flow_temp": 41.69,
+          "coldest_day_cop": 0.02,
+          "coldest_day_outdoor_temp": -5.52
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 1908.84,
+          "annual_heat_output_kwh": 3962.69
+        }
+      },
+      "timestamp": "2024-01-16T14:00:00",
+      "event_type": "predictive_heating",
+      "data": {
+        "indoor_temp": 21.2,
+        "target_temp": 20.0,
+        "outdoor_temp": 2.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 1.2,
+        "cop": 3.031,
+        "flow_temp": 41.46,
+        "weather_forecast_temp": -8.0,
+        "forecast_time": "tonight 22:00",
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0014_low_cop",
+      "name": "Lower Than Expected Efficiency",
+      "property_profile": {
+        "profile_name": "Hybrid Heat Pump",
+        "property_id": "EOH0014",
+        "property_details": {
+          "house_type": "Semi-Detached",
+          "house_age": "1950 - 1966",
+          "postcode_area": "NE6"
+        },
+        "heat_pump_specs": {
+          "type": "Hybrid",
+          "brand": "Daikin",
+          "model": "EHY2KOMB32AA",
+          "size_kw": 4.0,
+          "refrigerant": "R32"
+        },
+        "performance_data": {
+          "annual_spf": 2.531,
+          "typical_cop_range": [
+            2.031,
+            3.031
+          ],
+          "mean_flow_temp": 41.46,
+          "winter_flow_temp": 41.69,
+          "coldest_day_cop": 0.02,
+          "coldest_day_outdoor_temp": -5.52
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 1908.84,
+          "annual_heat_output_kwh": 3962.69
+        }
+      },
+      "timestamp": "2024-01-22T10:30:00",
+      "event_type": "potential_fault",
+      "data": {
+        "indoor_temp": 18.5,
+        "target_temp": 20.0,
+        "outdoor_temp": 3.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 1.8,
+        "cop": 1.4,
+        "flow_temp": 46.46,
+        "return_temp": 41.46,
+        "electricity_price_current": 0.15,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0079_tariff_opt",
+      "name": "Early Morning Heating on Cheap Tariff",
+      "property_profile": {
+        "profile_name": "Ground Source Heat Pump",
+        "property_id": "EOH0079",
+        "property_details": {
+          "house_type": "Semi-Detached",
+          "house_age": "1945-1964",
+          "postcode_area": "EH4"
+        },
+        "heat_pump_specs": {
+          "type": "GSHP",
+          "brand": "Vaillant",
+          "model": "VWF 87/4",
+          "size_kw": 8.0,
+          "refrigerant": "R410A"
+        },
+        "performance_data": {
+          "annual_spf": 4.301,
+          "typical_cop_range": [
+            3.801,
+            4.801
+          ],
+          "mean_flow_temp": 37.97,
+          "winter_flow_temp": 42.16,
+          "coldest_day_cop": 4.099,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3043.26,
+          "annual_heat_output_kwh": 11428.52
+        }
+      },
+      "timestamp": "2024-01-15T02:30:00",
+      "event_type": "tariff_optimization",
+      "data": {
+        "indoor_temp": 19.2,
+        "target_temp": 20.0,
+        "outdoor_temp": -3.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 2.4,
+        "cop": 4.101,
+        "flow_temp": 42.16,
+        "electricity_price_current": 0.08,
+        "electricity_price_peak": 0.28,
+        "grid_carbon_intensity": 150,
+        "vpp_signal": null,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0079_vpp",
+      "name": "Grid Demand Response (Peak Period)",
+      "property_profile": {
+        "profile_name": "Ground Source Heat Pump",
+        "property_id": "EOH0079",
+        "property_details": {
+          "house_type": "Semi-Detached",
+          "house_age": "1945-1964",
+          "postcode_area": "EH4"
+        },
+        "heat_pump_specs": {
+          "type": "GSHP",
+          "brand": "Vaillant",
+          "model": "VWF 87/4",
+          "size_kw": 8.0,
+          "refrigerant": "R410A"
+        },
+        "performance_data": {
+          "annual_spf": 4.301,
+          "typical_cop_range": [
+            3.801,
+            4.801
+          ],
+          "mean_flow_temp": 37.97,
+          "winter_flow_temp": 42.16,
+          "coldest_day_cop": 4.099,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3043.26,
+          "annual_heat_output_kwh": 11428.52
+        }
+      },
+      "timestamp": "2024-01-15T18:15:00",
+      "event_type": "vpp_curtailment",
+      "data": {
+        "indoor_temp": 19.1,
+        "target_temp": 20.0,
+        "outdoor_temp": 4.0,
+        "heat_pump_status": "reduced",
+        "power_consumption_kw": 1.2,
+        "cop": 4.601,
+        "flow_temp": 37.97,
+        "electricity_price_current": 0.32,
+        "grid_carbon_intensity": 420,
+        "vpp_signal": "reduce_50%",
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0079_cold_day",
+      "name": "Cold Weather Performance",
+      "property_profile": {
+        "profile_name": "Ground Source Heat Pump",
+        "property_id": "EOH0079",
+        "property_details": {
+          "house_type": "Semi-Detached",
+          "house_age": "1945-1964",
+          "postcode_area": "EH4"
+        },
+        "heat_pump_specs": {
+          "type": "GSHP",
+          "brand": "Vaillant",
+          "model": "VWF 87/4",
+          "size_kw": 8.0,
+          "refrigerant": "R410A"
+        },
+        "performance_data": {
+          "annual_spf": 4.301,
+          "typical_cop_range": [
+            3.801,
+            4.801
+          ],
+          "mean_flow_temp": 37.97,
+          "winter_flow_temp": 42.16,
+          "coldest_day_cop": 4.099,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3043.26,
+          "annual_heat_output_kwh": 11428.52
+        }
+      },
+      "timestamp": "2024-01-20T08:00:00",
+      "event_type": "normal_winter_behavior",
+      "data": {
+        "indoor_temp": 19.8,
+        "target_temp": 20.0,
+        "outdoor_temp": -6.42,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 4.0,
+        "cop": 4.099,
+        "flow_temp": 44.16,
+        "electricity_price_current": 0.15,
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0079_predictive",
+      "name": "Pre-heating Before Cold Snap",
+      "property_profile": {
+        "profile_name": "Ground Source Heat Pump",
+        "property_id": "EOH0079",
+        "property_details": {
+          "house_type": "Semi-Detached",
+          "house_age": "1945-1964",
+          "postcode_area": "EH4"
+        },
+        "heat_pump_specs": {
+          "type": "GSHP",
+          "brand": "Vaillant",
+          "model": "VWF 87/4",
+          "size_kw": 8.0,
+          "refrigerant": "R410A"
+        },
+        "performance_data": {
+          "annual_spf": 4.301,
+          "typical_cop_range": [
+            3.801,
+            4.801
+          ],
+          "mean_flow_temp": 37.97,
+          "winter_flow_temp": 42.16,
+          "coldest_day_cop": 4.099,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3043.26,
+          "annual_heat_output_kwh": 11428.52
+        }
+      },
+      "timestamp": "2024-01-16T14:00:00",
+      "event_type": "predictive_heating",
+      "data": {
+        "indoor_temp": 21.2,
+        "target_temp": 20.0,
+        "outdoor_temp": 2.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 2.4,
+        "cop": 4.801,
+        "flow_temp": 37.97,
+        "weather_forecast_temp": -8.0,
+        "forecast_time": "tonight 22:00",
+        "mode": "heating"
+      }
+    },
+    {
+      "id": "EOH0079_low_cop",
+      "name": "Lower Than Expected Efficiency",
+      "property_profile": {
+        "profile_name": "Ground Source Heat Pump",
+        "property_id": "EOH0079",
+        "property_details": {
+          "house_type": "Semi-Detached",
+          "house_age": "1945-1964",
+          "postcode_area": "EH4"
+        },
+        "heat_pump_specs": {
+          "type": "GSHP",
+          "brand": "Vaillant",
+          "model": "VWF 87/4",
+          "size_kw": 8.0,
+          "refrigerant": "R410A"
+        },
+        "performance_data": {
+          "annual_spf": 4.301,
+          "typical_cop_range": [
+            3.801,
+            4.801
+          ],
+          "mean_flow_temp": 37.97,
+          "winter_flow_temp": 42.16,
+          "coldest_day_cop": 4.099,
+          "coldest_day_outdoor_temp": -6.42
+        },
+        "energy_consumption": {
+          "annual_system_kwh": 3043.26,
+          "annual_heat_output_kwh": 11428.52
+        }
+      },
+      "timestamp": "2024-01-22T10:30:00",
+      "event_type": "potential_fault",
+      "data": {
+        "indoor_temp": 18.5,
+        "target_temp": 20.0,
+        "outdoor_temp": 3.0,
+        "heat_pump_status": "heating",
+        "power_consumption_kw": 3.6,
+        "cop": 2.801,
+        "flow_temp": 42.97,
+        "return_temp": 37.97,
+        "electricity_price_current": 0.15,
+        "mode": "heating"
+      }
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-15T12:24:05.880502",
+    "source": "EoH Dataset CSV",
+    "total_properties": 5,
+    "total_scenarios": 25
+  }
+}
